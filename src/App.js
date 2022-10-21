@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.css';
+import { ThemeProvider } from '@emotion/react';
+import theme from './components/themes/ThemeConfig';
+import Home from './routes/home/Home';
+import background from './img/images.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
+    <ThemeProvider theme={theme}>
+      <div style={{ backgroundImage: `url(${background})`}}>
+      <Home />
     </div>
+    </ThemeProvider>
   );
 }
 
