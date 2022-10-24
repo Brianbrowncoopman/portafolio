@@ -11,17 +11,17 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
-import theme from '../../components/themes/ThemeConfig';
+import theme from '../themes/ThemeConfig';
 import { ThemeProvider } from '@emotion/react';
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 
 
 
 
+
 const pages = ['Acerca de mi', 'Contactame', 'Conocimientos', 'Proyectos', 'Games'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Profile', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -106,7 +106,7 @@ const ResponsiveAppBar = () => {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+            <LaptopChromebookIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
             <Typography
               variant="h5"
               noWrap
@@ -123,7 +123,7 @@ const ResponsiveAppBar = () => {
               }}
               color='secondary'
             >
-              LOGO
+              Brian Brown
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
@@ -142,7 +142,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="" src="h" sx={{ width: 56, height: 56 }} />
+                  <Avatar alt="Brian" src="./img/brian.jpg" sx={{ width: 55, height: 55 }} />
                 </IconButton>
               </Tooltip>
               <Menu

@@ -1,0 +1,25 @@
+
+
+.container {
+  width: 90%;
+  height: 400px; 
+  padding: 10px;
+  margin: 50px;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  align-items: center;
+  
+  color: black;
+}

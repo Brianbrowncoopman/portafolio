@@ -1,5 +1,5 @@
 import React from "react";
-import FormHook from "../../components/formHook/FormHook";
+import FormHook from "../formHook/FormHook";
 
 
 
