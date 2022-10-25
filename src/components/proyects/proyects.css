@@ -1,0 +1,68 @@
+
+h2{
+  text-align: center;
+}
+
+.calculadora{
+  margin-left: 25%;
+  width: 40%;
+  border: 5px solid rgb(24, 4, 139);
+  background-color: rgb(55, 55, 141);
+  border-radius: 30px;
+  }
+
+.calculadora-conf{
+  margin-left:30%;
+  margin-right: 30%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row; 
+} 
+
+.contador{
+  margin-left: 25%;
+  width: 40%;
+  border: 5px solid rgb(24, 4, 139);
+  background-color: rgb(55, 55, 141);
+  border-radius: 30px;
+  }
+
+.contador-conf{
+  margin-left:30%;
+  margin-right: 30%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row; 
+}
+
+.lista{
+  margin-left: 25%;
+  width: 40%;
+  border: 5px solid rgb(24, 4, 139);
+  background-color: rgb(55, 55, 141);
+  border-radius: 30px;
+  }
+
+.lista-conf{
+  margin-left:30%;
+  margin-right: 30%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row; 
+}
+
+.clima{
+  margin-left: 25%;
+  width: 40%;
+  border: 5px solid rgb(24, 4, 139);
+  background-color: rgb(55, 55, 141);
+  border-radius: 30px;
+  }
+
+.clima-conf{
+  margin-left:30%;
+  margin-right: 30%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row; 
+}

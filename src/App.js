@@ -6,9 +6,9 @@ import background from './img/images.jpg';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div style={{ backgroundImage: `url(${background})`}}>
-      <Home />
-    </div>
+      
+        <Home />
+      
     </ThemeProvider>
   );
 }

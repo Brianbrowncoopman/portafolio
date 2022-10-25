@@ -21,7 +21,7 @@ import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 
 
 const pages = ['Acerca de mi', 'Contactame', 'Conocimientos', 'Proyectos', 'Games'];
-const settings = ['Profile', 'Dashboard', 'Logout'];
+const settings = [];{/*'Profile', 'Dashboard', 'Logout'*/ }
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
