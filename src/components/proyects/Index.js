@@ -5,7 +5,7 @@ import listadetareas from '../../img/listadetareas.png';
 import calculadora from '../../img/calculadora.png';
 import contador from '../../img/contador.png';
 import clima from '../../img/clima.png';
-import './proyects.css';
+import './style.css';
 
 
 

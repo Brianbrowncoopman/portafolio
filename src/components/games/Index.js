@@ -1,5 +1,5 @@
 import React from "react";
-import './games.css';
+import './style.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import vercel from '../../img/vercel.png';
 import gato from '../../img/gato.png';

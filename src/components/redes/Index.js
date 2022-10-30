@@ -1,7 +1,7 @@
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import './Net.css'
+import './style.css'
 import React from 'react'
 
 function Net() {
