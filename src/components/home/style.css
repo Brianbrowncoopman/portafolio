@@ -1,9 +1,15 @@
 
 
-.home{
-    width: 90%;
-    height: 500px;
-    margin-left: 25px;
-    margin-right: 25px;
-    
+.home {
+  width: 90%;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.p {
+  background-color: rgb(103, 103, 218);
+  border-radius: 15px;
+  border: 2px solid blue;
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import FormHook from "../formHook/Index";
+import Form from "../formHook/form";
 import './style.css';
 
 
 function Contact() {
-    return (
-        <div className="contact">
-        <FormHook/>
-        </div>
-    );
+  return (
+    <div className="contact">
+      <Form />
+    </div>
+  );
 }
 
 

@@ -34,25 +34,27 @@ const FormHook = () => {
           autoComplete="off"
         >
           <div>
-            <TextField onSubmit={handleSubmit}
+            <TextField onSubmit={handleSubmit(onSubmit)}
               id="outlined-helperText"
-              label="Nombre"
+              label="NOMBRE"
               name='nombre'
               {...register('nombre', { required: { value: true, message: 'El nombre es obligatorio' }, minLength: { value: 3, message: 'Ingrese mínimo 3  letras' } })}
             />
             <h2 style={{ color: 'red' }}> {errors?.nombre?.message}</h2>
+            
             <TextField
               id="outlined-helperText"
-              label="Apellido"
+              label="APELLIDO"
               name='apellido'
               {...register('apellido', { required: { value: true, message: 'El apellido es obligatorio' }, minLength: { value: 3, message: 'Ingrese mínimo 3 letras' } })}
             />
             <TextField
               id="outlined-helperText"
-              label="Email"
+              label="EMAIL"
               name='Email'
-              {...register('apellido', { required: { value: true, message: 'El Email es obligatorio' }, minLength: { value: 3, message: 'Ingrese mínimo 3 letras' } })}
+              {...register('Email', { required: { value: true, message: 'El Email es obligatorio' }, minLength: { value: 3, message: 'Ingrese mínimo 3 letras' } })}
             />
+            
             <span>
               <h2 style={{ color: 'red' }}> {errors?.apellido?.message}</h2>
             </span>

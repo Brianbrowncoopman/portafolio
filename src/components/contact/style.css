@@ -3,4 +3,17 @@
   height: 500px;
   margin-left: 25px;
   margin-right: 25px;
+  color: black;
+  font-size: medium;
+}
+
+input {
+  border-radius: 10px;
+  background-color: rgb(150, 150, 250);
+  width: 200px;
+  justify-content: right;
+}
+
+.tel {
+  text-align: center;
 }

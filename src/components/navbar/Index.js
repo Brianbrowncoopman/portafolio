@@ -15,6 +15,8 @@ import { Link } from 'react-router-dom';
 import theme from '../themes/ThemeConfig';
 import { ThemeProvider } from '@emotion/react';
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
+import brian from '../../img/brian.jpg';
+
 
 
 
@@ -142,7 +144,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Brian" src="./img/brian.jpg" sx={{ width: 55, height: 55 }} />
+                  <Avatar alt="brian" src={brian} sx={{ width: 55, height: 55 }} />
                 </IconButton>
               </Tooltip>
               <Menu
