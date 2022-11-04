@@ -6,22 +6,17 @@ const Form = () => {
 
   const { register, formState: { errors }, watch, handleSubmit } = useForm()
   
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = (event) => {
+    alert("Formulario enviado exitosamente");
+    event.target.reset();
   }
 
   const incluirTelefono = watch('incluirTelefono');
 
-  
-
   return <div className="form">
     <h2>Formulario de contacto</h2>
-    {/*<div className="info">
-      <p>Nombre: {watch('name')}</p>
-      <p>Apellido: {watch('lastName')}</p>
-      <p>Email: {watch('email')}</p>
-    </div>*/}
-    <form className="formu" onSubmit={handleSubmit(onSubmit)}>
+    
+    <form className="formu" onSubmit={handleSubmit(onSubmit)} >
       <div>
         <label>Nombre: </label>
         <input type="text" {...register('name', {
@@ -74,13 +69,14 @@ const Form = () => {
       { incluirTelefono && (
         <div>
         <label>Telefono: </label>
-        <input type="text" {...register('telefono')}/>
+        <input type="text" {...register('telefono')} />
       </div>
       )}
-      <br></br>
+      <br/>
       <button className="but" type="submit" value="Enviar">  Enviar  </button>
     </form>
   </div>
 }
 
 export default Form;
+
