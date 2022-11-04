@@ -1,7 +1,6 @@
 import React from "react";
 import './style.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import vercel from '../../img/vercel.png';
 import gato from '../../img/gato.png';
 import memorice from '../../img/memorice.png';
 
@@ -25,7 +24,7 @@ function Games() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://gato-f2os.vercel.app/" target="_blank" rel="noreferrer">
-              <img alt="gato" src={gato} width="200px" height="200px"/>
+              <img className="gatto" alt="gato" src={gato} width="150px" height="150px" pading="10px"/>
             </a>
           </div>
         </div>
@@ -40,7 +39,7 @@ function Games() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://gato-f2os.vercel.app/" target="_blank" rel="noreferrer">
-              <img src={memorice} width="200px" height="200px"/>
+              <img className="memo" alt="memorice"src={memorice} width="150px" height="150px"/>
             </a>
           </div>
         </div>  

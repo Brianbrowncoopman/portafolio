@@ -3,9 +3,22 @@ h2{
   text-align: center;
 }
 
+
+
+.img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img:hover {
+  width: 180px;
+  height: 180px;
+}
+
 .calculadora{
-  margin-left: 25%;
-  width: 40%;
+  margin-left: 32%;
+  margin-right: 25%;
+  width: 35%;
   border: 5px solid rgb(24, 4, 139);
   background-color: rgb(55, 55, 141);
   border-radius: 30px;
@@ -20,8 +33,9 @@ h2{
 } 
 
 .contador{
-  margin-left: 25%;
-  width: 40%;
+  margin-left: 32%;
+  margin-right: 25%;
+  width: 35%;
   border: 5px solid rgb(24, 4, 139);
   background-color: rgb(55, 55, 141);
   border-radius: 30px;
@@ -36,8 +50,9 @@ h2{
 }
 
 .lista{
-  margin-left: 25%;
-  width: 40%;
+  margin-left: 32%;
+  margin-right: 25%;
+  width: 35%;
   border: 5px solid rgb(24, 4, 139);
   background-color: rgb(55, 55, 141);
   border-radius: 30px;
@@ -52,15 +67,17 @@ h2{
 }
 
 .clima{
-  margin-left: 25%;
-  width: 40%;
+  margin-left: 32%;
+  margin-right: 25%;
+  width: 35%;
   border: 5px solid rgb(24, 4, 139);
   background-color: rgb(55, 55, 141);
   border-radius: 30px;
   }
 
 .clima-conf{
-  margin-left:30%;
+  margin-left: 32%;
+  margin-right: 25%;
   margin-right: 30%;
   gap: 50px;
   display: flex;

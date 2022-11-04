@@ -22,8 +22,8 @@ import brian from '../../img/brian.jpg';
 
 
 
-const pages = ['Acerca de mi', 'Contactame', 'Conocimientos', 'Proyectos', 'Games'];
-const settings = [];{/*'Profile', 'Dashboard', 'Logout'*/ }
+const pages = ['Conoceme', 'Contactame', 'Conocimientos', 'Proyectos', 'Games'];
+const settings = ['Profile', 'Dashboard', 'Logout'];{/**/ }
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

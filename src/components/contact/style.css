@@ -1,3 +1,10 @@
+form {
+  border: 2px solid rgb(36, 12, 122);
+  padding: 12px;
+  border-radius: 10px;
+  background-color: rgb(55, 55, 170);
+}
+
 .contact {
   width: 90%;
   height: 500px;
@@ -17,3 +24,25 @@ input {
 .tel {
   text-align: center;
 }
+
+.select {
+  background-color: blue;
+  border-radius: 10px;
+  width: 100px;
+}
+.but {
+  background-color: rgb(64, 64, 233);
+  border: 2px solid rgb(4, 4, 131);
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+}
+
+.but:hover {
+  background-color: rgb(117, 117, 216);
+  border: 2px solid rgb(4, 4, 131);
+  color: white;
+  border-radius: 10px;
+  
+}
+

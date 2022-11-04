@@ -24,7 +24,7 @@ function Proyects() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://calculadora2-ivory.vercel.app/" target="_blank" rel="noreferrer">
-              <img alt="calculadora" src={calculadora} width="200px" height="200px"/>
+              <img className="img" alt="img" src={calculadora} width="150px" height="150px"/>
             </a>
           </div>  
         </div>
@@ -39,7 +39,7 @@ function Proyects() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://contadordeclicks.vercel.app/" target="_blank" rel="noreferrer">
-              <img alt="contador" src={contador} width="200px" height="200px"/>
+              <img className="img" alt="img" src={contador} width="150px" height="150px"/>
             </a>
           </div>  
         </div>
@@ -54,7 +54,7 @@ function Proyects() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://listadetareas-seven.vercel.app/" target="_blank" rel="noreferrer">
-              <img alt="listadetareas" src={listadetareas} width="200px" height="200px"/>
+              <img className="img" alt="img" src={listadetareas} width="150px" height="150px"/>
             </a>
           </div>  
         </div>
@@ -69,7 +69,7 @@ function Proyects() {
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
             <a href="https://clima-apireact.vercel.app/" target="_blank" rel="noreferrer">
-              <img alt="clima" src={clima} width="200px" height="200px"/>
+              <img className="img" alt="img" src={clima} width="150px" height="150px"/>
             </a>
           </div>  
         </div>
