@@ -12,6 +12,8 @@ const Form = () => {
 
   const incluirTelefono = watch('incluirTelefono');
 
+  
+
   return <div className="form">
     <h2>Formulario de contacto</h2>
     {/*<div className="info">
@@ -77,7 +79,6 @@ const Form = () => {
       )}
       <br></br>
       <button className="but" type="submit" value="Enviar">  Enviar  </button>
-      
     </form>
   </div>
 }

@@ -10,7 +10,7 @@ import memorice from '../../img/memorice.png';
 function Games() {
   return (
     <div>
-      <h1>listado de juegos </h1>
+      <h1>Aca podras encontrar algunos juegos que he aprendido a desarrollar. </h1>
       
       <br></br>
       <div className="games">
