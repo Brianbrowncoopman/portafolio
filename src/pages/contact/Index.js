@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "../formHook/index";
+import Form from '../../components/form/index'
 import './style.css';
 
 
