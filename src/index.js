@@ -14,6 +14,7 @@ import background from './img/images.jpg';
 import Footer from './components/footer/Index';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

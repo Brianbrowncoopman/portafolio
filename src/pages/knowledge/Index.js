@@ -20,7 +20,6 @@ function Knowledge() {
           <a href="https://html5.com/" target="_blank" rel="noreferrer">
             <img className="html" alt="img1" src={html5} width="150px" height="150px" border="3px solid" border-radius="10px"/>
           </a>
-          
         </div>
         <div>
           <h4>CSS</h4>
@@ -29,8 +28,8 @@ function Knowledge() {
           </a>
         </div>
         <div>
-        <h4>SASS</h4>
-        <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
+          <h4>SASS</h4>
+          <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
             <img className="html" alt="sass" src={sass} width="150px" height="150px" border="3px solid"/>
           </a>
         </div>

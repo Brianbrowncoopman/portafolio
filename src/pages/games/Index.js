@@ -11,8 +11,7 @@ function Games() {
   return (
     <div>
       <h1>Aca podras encontrar algunos juegos que he aprendido a desarrollar. </h1>
-      
-      <br></br>
+      <br />
       <div className="games">
         <div className="gato">
           <h3>Gato</h3>

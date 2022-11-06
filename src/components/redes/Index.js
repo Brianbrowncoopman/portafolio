@@ -12,7 +12,6 @@ function Net() {
             color="success" fontSize="large" sx={{ borderRadius: '8px',
             boxShadow: '0 0 .5rem #2ff53c '}} />
         </a>
-       
         <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer">
           <LinkedInIcon
             sx={{ color: '#1003AE',borderRadius: '8px',
