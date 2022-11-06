@@ -15,19 +15,20 @@ import Footer from './components/footer/Index';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <div className='font' style={{ backgroundImage: `url(${background}) `}}>
     <ResponsiveAppBar />
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="Contactame" element={<Contact />} />
-      <Route path="Conoceme" element={<About />} />
-      <Route path="proyectos" element={<Proyects />} />
-      <Route path="games" element={<Games />} />
-      <Route path="Conocimientos" element={<Knowledge />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="Contactame" element={<Contact />} />
+        <Route path="Conoceme" element={<About />} />
+        <Route path="proyectos" element={<Proyects />} />
+        <Route path="games" element={<Games />} />
+        <Route path="Conocimientos" element={<Knowledge />} />
+      </Routes>
     <br></br>
     <Net />
     <Footer />

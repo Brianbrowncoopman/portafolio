@@ -1,24 +1,14 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
+import React, { useContext, useState } from "react";
 import './style.css';
+import UserContext from "../../components/useContext/index";
 
 
-export const userContext = React.createContext();
 
-function Home() {
-  const { register, handleSubmit } = useForm()
-  const [user, setUser] = useState(null);
 
-  const Enviar = () => {
-    if (user) {
-      setUser(null);
-    } else {
-      setUser({
-        name: 'brian',
+export default function Home() {
 
-      })
-    }
-  }
+  const context = useContext(UserContext);
+  const [user, setUser] = useState("");
 
   return (
     <div className="home">
@@ -30,21 +20,21 @@ function Home() {
         <p>Soy estudiante de desarrollo front y back end en LARNU, desde julio del 2022.</p>
       </div>
       <br />
-      <userContext.Provider value={user}>
-        <div className="name">
-        <label className="Ingresa" >Ingresa tu nombre</label>
-        <br />
-        <input type="text" {...register('name', {
-            required: true,
-            maxLength: 15,
-            minLength:5,
-          })} />
-        <br />  
-        <button className="but" onClick={Enviar} type="submit" value="Enviar">  Enviar  </button> 
-        </div>
-      </userContext.Provider>
+
+
+      <div className="name">
+        <form className="form">
+          <input 
+            className="input"
+            type="text"
+            placeholder="tu nombre aca" 
+            name="user"
+            value={user}
+            onChange={e => setUser(e.target.value)}
+          />
+          <button className='but' type='submit' onClick={() => setUser('')}>enviar</button>
+        </form>
+      </div>
     </div>
   );
 }
-
-export default Home;
