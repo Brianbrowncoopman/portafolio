@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import './style.css';
 import html5 from '../../img/html5.jpg';
 import css from '../../img/css.png';
@@ -7,13 +7,17 @@ import js from '../../img/js.jpg';
 import github from "../../img/github.png";
 import vercel from "../../img/vercel.png";
 import react from "../../img/react.png";
+import UserContext from "../../components/context";
 
 
 
 function Knowledge() {
+
+  const context = useContext(UserContext);
+
   return (
     <div>
-      <h1>Tecnologias que he aprendido</h1>
+      <h1>Tecnologias que he aprendido en {context.school}</h1>
       <div className="container">
         <div>
           <h4>HTML</h4>

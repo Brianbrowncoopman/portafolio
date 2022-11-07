@@ -4,8 +4,9 @@ import './style.css';
 
 const Form = () => {
 
-  const { register, formState: { errors }, watch, handleSubmit } = useForm()
+
   
+  const { register, formState: { errors }, watch, handleSubmit } = useForm()
   const onSubmit = (event) => {
     alert("Formulario enviado exitosamente");
     event.target.reset();

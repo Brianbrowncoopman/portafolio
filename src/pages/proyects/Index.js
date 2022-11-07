@@ -1,18 +1,21 @@
 
-import React from "react";
+import React, { useContext } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import listadetareas from '../../img/listadetareas.png';
 import calculadora from '../../img/calculadora.png';
 import contador from '../../img/contador.png';
 import clima from '../../img/clima.png';
 import './style.css';
+import UserContext from "../../components/context";
 
 
 
 function Proyects() {
+
+  const context = useContext(UserContext);
   return (
       <div >
-        <h2>Proyectos con los que he aprendido</h2>
+        <h2>Proyectos con los que he aprendido en {context.school}</h2>
         <br />
         <div className="calculadora">
           <h3>Calculadora</h3>

@@ -4,6 +4,7 @@ import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './index.css';
 import About from './pages/about/Index';
+import Data from './pages/data/index';
 import Contact from './pages/contact/Index';
 import ResponsiveAppBar from './components/appBar/Index';
 import Proyects from './pages/proyects/Index';
@@ -16,23 +17,35 @@ import Footer from './components/footer/Index';
 
 
 
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
-  <BrowserRouter>
-  <div className='font' style={{ backgroundImage: `url(${background}) `}}>
-    <ResponsiveAppBar />
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="Contactame" element={<Contact />} />
-        <Route path="Conoceme" element={<About />} />
-        <Route path="proyectos" element={<Proyects />} />
-        <Route path="games" element={<Games />} />
-        <Route path="Conocimientos" element={<Knowledge />} />
-      </Routes>
-    <br></br>
-    <Net />
-    <Footer />
-    <br></br>
-  </div>
-  </BrowserRouter>
+
+  
+    <BrowserRouter>
+      <div className='font' style={{ backgroundImage: `url(${background}) `}}>
+        <ResponsiveAppBar />
+
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="Contactame" element={<Contact />} />
+          <Route path="Conoceme" element={<About />} />
+          <Route path="proyectos" element={<Proyects />} />
+          <Route path="games" element={<Games />} />
+          <Route path="Conocimientos" element={<Knowledge />} />
+          <Route path="data" element={<Data />} />
+        </Routes>
+
+        <br></br>
+        <Net />
+        <Footer />
+        <br></br>
+      </div>
+    </BrowserRouter>
+  
 );
