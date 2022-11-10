@@ -18,7 +18,7 @@ import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import brian from '../../img/brian.jpg';
 
 
-const pages = ['Conoceme', 'Contactame', 'Conocimientos', 'Proyectos', 'Games', 'Data'];
+const pages = ['Conoceme', 'Contactame', 'Conocimientos', 'Proyectos', , 'Login'];
 const settings = [];/*'Profile', 'Dashboard', 'Logout'*/ 
 
 const ResponsiveAppBar = () => {

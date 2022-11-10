@@ -14,45 +14,45 @@ function Proyects() {
 
   const context = useContext(UserContext);
   return (
-      <div >
-        <h2>Proyectos con los que he aprendido en {context.school}</h2>
-        <br />
-        <div className="calculadora">
-          <h3>Calculadora</h3>
-          <p>Una App para toda ocacion</p>
-          <div className="calculadora-conf">
-            <a href="https://github.com/Brianbrowncoopman/calculadora2" target="_blank" rel="noreferrer">
-              <GitHubIcon
+    <div >
+      <h2>Proyectos con los que he aprendido en {context.school}</h2>
+      <br />
+      <div className="calculadora">
+        <h3>Calculadora</h3>
+        <p>Una App para toda ocacion</p>
+        <div className="calculadora-conf">
+          <a href="https://github.com/Brianbrowncoopman/calculadora2" target="_blank" rel="noreferrer">
+            <GitHubIcon
               sx={{ color: 'black',borderRadius: '8px',
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
-            </a>
-            <a href="https://calculadora2-ivory.vercel.app/" target="_blank" rel="noreferrer">
-              <img className="img" alt="img" src={calculadora} width="150px" height="150px"/>
-            </a>
-          </div>  
-        </div>
-        <br />
-        <div className="contador">
-          <h3>Contador de clicks</h3>
-          <p>clasico juego de 3 figuras en linea</p>
-          <div className="contador-conf">
-            <a href="https://github.com/Brianbrowncoopman/contadordeclicks" target="_blank" rel="noreferrer">
-              <GitHubIcon
-              sx={{ color: 'black',borderRadius: '8px',
-              boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
-            </a>
-            <a href="https://contadordeclicks.vercel.app/" target="_blank" rel="noreferrer">
-              <img className="img" alt="img" src={contador} width="150px" height="150px"/>
-            </a>
-          </div>  
-        </div>
-        <br />
-        <div className="lista">
-          <h3>To-do list</h3>
-          <p>clasico juego de 3 figuras en linea</p>
-          <div className="lista-conf">
-            <a href="https://github.com/Brianbrowncoopman/listatareas" target="_blank" rel="noreferrer">
-              <GitHubIcon
+          </a>
+          <a href="https://calculadora2-ivory.vercel.app/" target="_blank" rel="noreferrer">
+            <img className="img" alt="img" src={calculadora} width="150px" height="150px"/>
+          </a>
+        </div>  
+      </div>
+      <br />
+      <div className="contador">
+        <h3>Contador de clicks</h3>
+        <p>clasico juego de 3 figuras en linea</p>
+        <div className="contador-conf">
+          <a href="https://github.com/Brianbrowncoopman/contadordeclicks" target="_blank" rel="noreferrer">
+            <GitHubIcon
+            sx={{ color: 'black',borderRadius: '8px',
+            boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
+          </a>
+          <a href="https://contadordeclicks.vercel.app/" target="_blank" rel="noreferrer">
+            <img className="img" alt="img" src={contador} width="150px" height="150px"/>
+          </a>
+        </div>  
+      </div>
+      <br />
+      <div className="lista">
+        <h3>To-do list</h3>
+        <p>clasico juego de 3 figuras en linea</p>
+        <div className="lista-conf">
+          <a href="https://github.com/Brianbrowncoopman/listatareas" target="_blank" rel="noreferrer">
+            <GitHubIcon
               sx={{ color: 'black',borderRadius: '8px',
               boxShadow: '0 0 .5rem #01010a '}} fontSize="large"/>
             </a>
